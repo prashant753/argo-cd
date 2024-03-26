@@ -3,8 +3,8 @@ kind: Service
 metadata:
   labels:
     app: nginx
-   name: nginx-service
-   namespace: default
+  name: nginx-service-dsa
+  namespace: default
 spec:
   ports:
   - port: 80
